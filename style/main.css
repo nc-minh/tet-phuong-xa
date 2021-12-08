@@ -27,6 +27,10 @@ html{
 .app{
     width: 100%;
     height: auto;
+    background-image: url('/img/hoadaobg.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
 }
 
 /* header begin */
@@ -217,3 +221,42 @@ html{
 }
 
 /* featured end */
+
+/* comment__fb begin */
+
+#comment__fb{
+    text-align: center;
+}
+
+/* comment__fb end */
+
+/* library begin */
+
+.library{
+    width: 100%;
+    height: 100%;
+}
+
+.library__row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.library__column{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0 .5rem;
+}
+
+.library__column img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+
+/* library end */
