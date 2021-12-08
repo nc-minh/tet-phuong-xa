@@ -161,7 +161,7 @@ html{
 
 .content__item__img img{
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 .content__item__wrapper{
