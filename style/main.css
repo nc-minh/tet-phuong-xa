@@ -86,7 +86,7 @@ html{
 }
 
 .banner__content{
-    background-image: url('/img/banner.png');
+    background-image: url('https://raw.githubusercontent.com/nc-minh/Tet-Phuong-Xa/master/img/banner.png');
     background-size: contain;
     background-position: center;
     color: var(--color-white);
@@ -258,5 +258,5 @@ html{
     margin-bottom: 1rem;
 }
 
-
 /* library end */
+
