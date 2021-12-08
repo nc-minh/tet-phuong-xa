@@ -27,10 +27,35 @@ html{
 .app{
     width: 100%;
     height: auto;
+    position: relative;
+}
+
+.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background-image: url('/img/hoadaobg.png');
     background-repeat: no-repeat;
     background-position: top right;
-    background-size: contain;
+    background-size: auto;
+    opacity: .3;
+    z-index: 1;
+}
+
+.background2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/img/hoadao.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: auto;
+    opacity: .3;
+    z-index: 1;
 }
 
 /* header begin */
@@ -40,6 +65,20 @@ html{
     justify-content: space-between;
     align-items: center;
     height: 10rem;
+    z-index: 10;
+    position: relative;
+}
+
+.header__logo{
+    width: 6rem;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+}
+
+.header__logo img{
+    width: 100%;
+    height: 100%;
 }
 
 .header__menu__list{
@@ -83,6 +122,8 @@ html{
 .banner{
     width: 100%;
     height: auto;
+    z-index: 10;
+    position: relative;
 }
 
 .banner__content{
@@ -127,6 +168,8 @@ html{
 
 .content{
     width: 100%;
+    z-index: 10;
+    position: relative;
 }
 
 .content__title{
@@ -181,6 +224,8 @@ html{
 .featured{
     margin: 3rem 0;
     width: 100%;
+    z-index: 10;
+    position: relative;
 }
 
 .featured__title{
@@ -235,6 +280,8 @@ html{
 .library{
     width: 100%;
     height: 100%;
+    z-index: 10;
+    position: relative;
 }
 
 .library__row{
