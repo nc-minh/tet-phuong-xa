@@ -6,6 +6,10 @@
     .library__column{
         width: 45%;
     }
+
+    .footer__form{
+        padding: 0 1rem;
+    }
 }
 
 
@@ -92,6 +96,11 @@
 
     .library__column{
         width: 100%;
+    }
+
+    .footer__form{
+        flex-direction: column;
+        padding: 0;
     }
 
 }

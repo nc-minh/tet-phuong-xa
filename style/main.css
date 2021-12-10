@@ -320,6 +320,105 @@ html{
 .footer{
     position: relative;
     z-index: 10;
+    margin-top: 3rem;
+}
+
+/* footer__form begin */
+
+.footer__form{
+    padding: 0 5rem;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.footer__form__contact{
+    margin: 1rem;
+    flex: 1;
+}
+
+.footer__form__contact__title{
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.footer__form__contact__item{
+    margin-top: 2rem;
+}
+
+.footer__form__send{
+    margin: 1rem;
+    flex: 1;
+}
+
+.footer__form__send__item{
+    margin-top: 2rem;
+}
+
+.footer__form__send__input{
+    display: flex;
+}
+
+.footer__form__send__input-firstname,
+.footer__form__send__input-lastname{
+    max-width: 12rem;
+}
+
+.footer__form__send__input-lastname{
+    margin-left: .5rem;
+}
+
+.footer__form__send__input-firstname,
+.footer__form__send__input-lastname,
+.footer__form__send__input-number,
+.footer__form__send__input-email{
+    height: 2.4rem;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 0 .5rem;
+}
+
+.footer__form__send__input-textarea{
+    padding: .5rem;
+    font-size: 1.2rem;
+    width: 100%;
+    height: 10rem;
+}
+
+.footer__form__send__btn{
+    margin-top: 1rem;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* footer__form end */
+
+
+.footer__contact{
+    margin: 2rem 0;
+    width: 100%;
+}
+
+.footer__contact__list{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__contact__item{
+    margin: 0 1rem;
+    font-size: 2rem;
+}
+
+.footer__contact__item__icon{
+    cursor: pointer;
+}
+
+.footer__contact__item__icon:hover{
+    color: var(--color-red);
 }
 
 /* footer end */
