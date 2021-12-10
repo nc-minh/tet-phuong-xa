@@ -115,6 +115,11 @@ html{
     cursor: pointer;
 }
 
+.header__menu__mobile__icon,
+.header__menu__mobile{
+    display: none;
+}
+
 /* header end */
 
 /* banner begin */
@@ -273,6 +278,7 @@ html{
     text-align: center;
     z-index: 10;
     position: relative;
+    margin: 2rem 0;
 }
 
 /* comment__fb end */
@@ -309,3 +315,11 @@ html{
 
 /* library end */
 
+/* footer begin */
+
+.footer{
+    position: relative;
+    z-index: 10;
+}
+
+/* footer end */

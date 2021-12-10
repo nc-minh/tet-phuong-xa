@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app{
+    background-color: #ad1425;
+}
+
+.content{
+    max-width: 1000px;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+
+.content img{
+    display: block;
+    width: 100%;
+}
+
+#comment__fb{
+    padding: 2rem 5rem;
+}
