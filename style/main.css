@@ -60,6 +60,10 @@ html{
 
 /* header begin */
 
+.header--mobile{
+    display: none;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -115,8 +119,7 @@ html{
     cursor: pointer;
 }
 
-.header__menu__mobile__icon,
-.header__menu__mobile{
+.header__menu__mobile__icon{
     display: none;
 }
 

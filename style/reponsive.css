@@ -15,6 +15,60 @@
 
 @media only screen and (max-width: 769px) {
 
+    .header--mobile{
+        display: none;
+        position: fixed;
+        z-index: 15;
+        background-color: thistle;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    .header--mobile__list{
+        width: 100%;
+        height: 100%;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header--mobile__item{
+        text-align: center;
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .header--mobile__item__link{
+        text-decoration: none;
+        font-size: 1.8rem;
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .header--mobile__item__link:hover{
+        color: var(--color-red);
+    }
+
+    .header--mobile--exit{
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 2rem;
+    }
+
+    .header--mobile--exit__icon{
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
+    .header--mobile--exit__icon:hover{
+        color: var(--color-red);
+    }
+
     .padding-left-right{
         padding: 0 1rem;
     }

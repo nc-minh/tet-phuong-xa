@@ -51,14 +51,29 @@
                         </div>
                     </li>
                 </ul>
-                <div class="header__menu__mobile__icon">
+                <div class="header__menu__mobile__icon" id="header__menu__mobile__icon" onclick="show()">
                     <i class="fas fa-bars"></i>
                 </div>
             </div>
-            
-            <div class="header__menu__mobile">
+        </header>
 
-            </div>
+        <header class="header--mobile" id="header__mobile">
+            <span class="header--mobile--exit">
+                <div class="header--mobile--exit__icon" onclick="hide()">
+                    <i class="fas fa-times"></i>
+                </div>
+            </span>
+            <ul class="header--mobile__list">
+                <li class="header--mobile__item">
+                    <a class="header--mobile__item__link" href="#">About us</a>
+                </li>
+                <li class="header--mobile__item">
+                    <a class="header--mobile__item__link" href="#">Recruitment</a>
+                </li>
+                <li class="header--mobile__item">
+                    <a class="header--mobile__item__link" href="#">Contact</a>
+                </li>
+            </ul>
         </header>
 
         <div class="banner">
@@ -234,5 +249,7 @@
             </div>
         </div>
     </div>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
