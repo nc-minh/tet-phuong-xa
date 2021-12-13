@@ -157,4 +157,15 @@
         padding: 0;
     }
 
+    /* about */
+    .about{
+        flex-direction: column-reverse;
+    }
+
+    .about__img{
+        width: 65%;
+        margin: auto;
+    }
+    /* about end */
+
 }

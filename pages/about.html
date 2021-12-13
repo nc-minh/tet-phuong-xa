@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lạt</title>
+    <link rel="stylesheet"
+        href="../fonts/fontawesome-free-6.0.0-beta3-web/fontawesome-free-6.0.0-beta3-web/css/all.min.css">
+    <link rel="stylesheet" href="../style/main.css">
+    <link rel="shortcut icon" href="../img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style/about.css">
+    <link rel="stylesheet" href="../style/reponsive.css">
+</head>
+
+<body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v12.0&appId=1064913151029233&autoLogAppEvents=1"
+        nonce="ryTYthYs"></script>
+    <div class="app">
+        <div class="background"></div>
+        <div class="background2"></div>
+        <header class="header padding-left-right">
+            <a href="" class="header__logo">
+                <img src="../img/logo.png" alt="Home">
+            </a>
+            <div class="header__menu">
+                <ul class="header__menu__list">
+                    <li class="header__menu__item">
+                        <a class="header__menu__item__link" href="#">About us</a>
+                    </li>
+                    <li class="header__menu__item">
+                        <a class="header__menu__item__link" href="#">Recruitment</a>
+                    </li>
+                    <li class="header__menu__item">
+                        <a class="header__menu__item__link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__contact">
+                <ul class="header__contact__list">
+                    <li class="header__contact__item">
+                        <div class="header__contact__item__icon">
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                    </li>
+                    <li class="header__contact__item">
+                        <div class="header__contact__item__icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                    </li>
+                    <li class="header__contact__item">
+                        <div class="header__contact__item__icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </li>
+                </ul>
+                <div class="header__menu__mobile__icon" id="header__menu__mobile__icon" onclick="show()">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </header>
+
+        <header class="header--mobile" id="header__mobile">
+            <span class="header--mobile--exit">
+                <div class="header--mobile--exit__icon" onclick="hide()">
+                    <i class="fas fa-times"></i>
+                </div>
+            </span>
+            <ul class="header--mobile__list">
+                <li class="header--mobile__item">
+                    <a class="header--mobile__item__link" href="#" onclick="hide()">About us</a>
+                </li>
+                <li class="header--mobile__item">
+                    <a class="header--mobile__item__link" href="#" onclick="hide()">Recruitment</a>
+                </li>
+                <li class="header--mobile__item">
+                    <a class="header--mobile__item__link" href="#" onclick="hide()">Contact</a>
+                </li>
+            </ul>
+        </header>
+
+
+        <div class="about padding-left-right">
+            <div class="about__content">
+                <h2 class="about__content__title">About lat</h2>
+                <div class="about__content__list">
+                    <div class="about__content__item">
+                        <h4 class="about__content__item__gt">1.Giới thiệu</h4>
+                        <p class="about__content__item__text">
+                            Chào độc giả, bọn mình là đội ngũ biên tập của tạp chí "Lạt" một nhóm bạn trẻ đến từ Học
+                            viện Ngoại Giao. Chúng mình đều là những sinh viên nhiệt huyết và vui tươi. Vì thế những câu
+                            chuyện của báo chúng mình đều xung quanh tới sinh viên và học sinh.
+                            Tạp chí Lạt với mục đích xây dựng dựa trên những câu chuyện ngày Tết sau khi cùng nhau chọn
+                            ra nhiều cái tên nổi bật cho tạp chí thì chúng mình đã lựa chọn "Lạt" lấy cảm hứng từ sợi
+                            lạt buộc bánh chưng mang ý nghĩa kết nối gắn kết mọi người từ khắp mọi nơi.
+
+                        </p>
+                    </div>
+                    <div class="about__content__item">
+                        <h4 class="about__content__item__gt">2.Founder</h4>
+                        <p class="about__content__item__text">
+                            Báo Lạt được thành lập do 4 sinh viên hiện đang học tập tại Học viện Ngoại Giao.
+                        </p>
+                    </div>
+                    <div class="about__content__item">
+                        <h4 class="about__content__item__gt">3.Sứ mệnh</h4>
+                        <p class="about__content__item__text">
+                            Báo Lạt là nơi chia sẻ những tâm tư, tình cảm, những câu chuyện thầm kín, bình dị nhưng rất
+                            đỗi thiêng liêng và ý nghĩa xung quanh cuộc sống của chúng ta. Lạt tức là sự kết nối giữa
+                            người với người, sự buộc chặt lẫn nhau để sưởi ấm và lan tỏa yêu thương đến cộng đồng. Cuối
+                            cùng điều chúng mình mong muốn nhất là mang lại những điều tốt đẹp, tích cực ra cộng đồng và
+                            tạo ra những giá trị cho cuộc sống.
+                        </p>
+                    </div>
+                    <div class="about__content__item">
+                        <h4 class="about__content__item__gt">4.Lời chúc và lời cảm ơn tới độc giả</h4>
+                        <p class="about__content__item__text">
+                            Cảm ơn các bạn đã dành thời gian để đọc những câu chuyện của bọn mình và mong mọi người sẽ
+                            để lại những lời bình luận về trang web nhá! Chúc mọi người sẽ tận hưởng thật vui vẻ và hạnh
+                            phúc khi đến với LẠT. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="about__img">
+                <img src="../img/team.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="ourmember padding-left-right">
+            <h2 class="ourmember__title">Our Member</h2>
+            <div class="ourmember__list">
+                <div class="ourmember__item">
+                    <div class="ourmember__item__img">
+                        <img src="../img/5.jpg" alt="">
+                    </div>
+                    <h4 class="ourmember__item__name">Nguyễn Phương Anh</h4>
+                    <div class="ourmember__popup">
+                        <div class="ourmember__popup__content">
+                            " Đừng đánh giá quyển sách qua trang bìa nhé các bạn độc giả, tuy nhìn qua LẠT vẻ như là một
+                            tờ báo vui tươi rực rỡ ko khí tết…. nhưng chứa đựng bên trong đó là những nỗi niềm tâm sự…"
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ourmember__item">
+                    <div class="ourmember__item__img">
+                        <img src="../img/5.jpg" alt="">
+                    </div>
+                    <h4 class="ourmember__item__name">Trịnh Thị Hòa</h4>
+                    <div class="ourmember__popup">
+                        <div class="ourmember__popup__content">
+                            “Cuộc sống của bạn lúc nào cũng nhộn nhịp, hối hả, bận rộn ngược xuôi…Nếu một ngày nào đó
+                            bạn cảm thấy mỏi mệt và cần nghỉ ngơi, “Lạt” chính là nơi đem lại cho bạn cảm giác thư giãn
+                            và ấm áp. “Lạt” luôn ở đây và đồng hành cùng bạn. Cố lên nhé!” </div>
+                    </div>
+                </div>
+
+                <div class="ourmember__item">
+                    <div class="ourmember__item__img">
+                        <img src="../img/4.jpg" alt="">
+                    </div>
+                    <h4 class="ourmember__item__name">Bùi Thị Phương Anh</h4>
+                    <div class="ourmember__popup">
+                        <div class="ourmember__popup__content">
+                            “Đừng cố quên đi nỗi buồn mà hãy để niềm vui lấp đầy nó”. Hãy đến với “Lạt” để cùng vui nào
+                            !
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ourmember__item">
+                    <div class="ourmember__item__img">
+                        <img src="../img/5.jpg" alt="">
+                    </div>
+                    <h4 class="ourmember__item__name">Nguyễn Thị Thanh Bình</h4>
+                    <div class="ourmember__popup">
+                        <div class="ourmember__popup__content">
+                            “Hãy giữ khuôn mặt bạn luôn hướng về ánh mặt trời, và bóng tối sẽ ngả phía sau bạn.” Lạt
+                            luôn ở đây để cùng đồng hành, chia sẻ với mọi người những tâm sự, buồn vui và cả áp lực
+                            trong cuộc sống. </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="comment__fb" class="padding-left-right">
+                <div class="fb-comments" data-href="https://latt.ga/" data-width="" data-numposts="5"
+                    data-mobile="Auto-detected"></div>
+            </div>
+
+
+
+            <div class="footer padding-left-right">
+                <div class="footer__form">
+                    <div class="footer__form__contact">
+                        <h5 class="footer__form__contact__title">LIÊN HỆ</h5>
+
+                        <div class="footer__form__contact__item">
+                            <p class="footer__form__contact__text">nguyencongminh.official@gmail</p>
+                            <p class="footer__form__contact__text">+84.986869999</p>
+                        </div>
+
+                        <div class="footer__form__contact__item">
+                            <p class="footer__form__contact__text">Senefelderstraße 7770176 Stuttgart, Đức</p>
+                        </div>
+
+                        <div class="footer__form__contact__item">
+                            <p class="footer__form__contact__text">Đăng ký học thử hoặc test trình độ tiếng Đức
+                                của bạn.</p>
+                            <p class="footer__form__contact__text">Chúng mình sẽ trả lời ngay trong vòng 15
+                                phút!</p>
+                        </div>
+
+                        <div class="footer__form__contact__item">
+                            <p class="footer__form__contact__text">Thời gian: 30 phút - 1 tiếng</p>
+                            <p class="footer__form__contact__text">Học phí: Miễn phí 100%</p>
+                        </div>
+
+                        <div class="footer__form__contact__item">
+                            <p class="footer__form__contact__text">Để tạo sự thoải mái nhất cho học viên, chúng
+                                tôi cung cấp
+                                1 buổi học thử cho các bạn. Các bạn sau đó hoàn toàn không có trách nhiệm phải
+                                đăng kí học
+                                và không phải trả bất cứ khoản phí nào.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="footer__form__send">
+                        <h5 class="footer__form__contact__title">ĐĂNG KÝ HỌC THỬ</h5>
+                        <div class="footer__form__send__item">
+                            <span class="footer__form__send__name">Tên*</span>
+                            <div class="footer__form__send__input">
+                                <input class="footer__form__send__input-firstname" type="text" name="" id=""
+                                    placeholder="Họ">
+                                <input class="footer__form__send__input-lastname" type="text" name="" id=""
+                                    placeholder="Tên">
+                            </div>
+                        </div>
+
+                        <div class="footer__form__send__item">
+                            <span class="footer__form__send__name">Email(Chú ý đưa Email đúng)*</span>
+                            <div class="footer__form__send__input">
+                                <input class="footer__form__send__input-email" type="email" name="" id="">
+                            </div>
+                        </div>
+
+                        <div class="footer__form__send__item">
+                            <span class="footer__form__send__name">Số điện thoại</span>
+                            <div class="footer__form__send__input">
+                                <input class="footer__form__send__input-number" type="text" name="" id="">
+                            </div>
+                        </div>
+
+                        <div class="footer__form__send__item">
+                            <span class="footer__form__send__name">Sơ qua về bạn</span>
+                            <div class="footer__form__send__input">
+                                <textarea class="footer__form__send__input-textarea" name="" id="" cols=""
+                                    rows=""></textarea>
+                            </div>
+                        </div>
+
+                        <button class="footer__form__send__btn">Gửi</button>
+                    </div>
+                </div>
+
+                <div class="footer__contact">
+                    <ul class="footer__contact__list">
+                        <li class="footer__contact__item">
+                            <div class="footer__contact__item__icon">
+                                <i class="fab fa-youtube"></i>
+                            </div>
+                        </li>
+                        <li class="footer__contact__item">
+                            <div class="footer__contact__item__icon">
+                                <i class="fab fa-facebook"></i>
+                            </div>
+                        </li>
+                        <li class="footer__contact__item">
+                            <div class="footer__contact__item__icon">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/main.js"></script>
+</body>
+
+</html>

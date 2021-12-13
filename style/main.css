@@ -281,7 +281,8 @@ html{
     text-align: center;
     z-index: 10;
     position: relative;
-    margin: 2rem 0;
+    margin: auto;
+    max-width: 1200px;
 }
 
 /* comment__fb end */
