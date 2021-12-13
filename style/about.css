@@ -45,10 +45,12 @@
     width: 100%;
     position: relative;
     z-index: 10;
+    background-color: rgba(143, 143, 143, 0.2);
+    padding: 1rem 0;
 }
 
 .ourmember__title{
-    margin: 2rem 0;
+    margin: 2rem 5rem;
 }
 
 .ourmember__list{
@@ -118,3 +120,35 @@
         opacity: .7;
     }
 }
+
+/* faq */
+
+.faq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.faq__img{
+    flex: 1;
+}
+
+.faq__content{
+    flex: 2;
+}
+
+.faq__content__title{
+    margin-bottom: 1rem;
+}
+
+.faq__content__item{
+    margin: 1rem 0;
+}
+
+.faq__content__item__question{
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+/* faq end */
