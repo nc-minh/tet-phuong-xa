@@ -10,6 +10,14 @@
     .footer__form{
         padding: 0 1rem;
     }
+    /* our team */
+    .ourmember__list{
+        flex-direction: column;
+    }
+
+    .ourmember__item{
+        padding: 1rem;
+    }
 }
 
 

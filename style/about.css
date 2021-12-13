@@ -61,6 +61,8 @@
 .ourmember__item{
     padding: 3rem 2rem;
     cursor: pointer;
+    transition: 1s;
+    position: relative;
 }
 
 .ourmember__item__img{
@@ -87,10 +89,32 @@
 
 .ourmember__item:hover .ourmember__popup{
     display: block;
-    translate: 2s;
+    animation: fadeIn ease-in .4s;
+    position: absolute;
+    z-index: 5;
 }
 
 .ourmember__popup{
     display: none;
+    transition: 1s;
+    position: absolute;
+    top: 50%;
+    left: -5rem;
+    right: -5rem;
+    transform: translateY(-50%);
+    background-color: var(--color-black);
+    padding: 1rem 1rem;
+    color: var(--color-white);
+    opacity: .7;
 }
 /* our member end */
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: .7;
+    }
+}
