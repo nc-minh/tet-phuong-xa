@@ -20,6 +20,7 @@
 .about__content__item__text{
     margin: 1rem;
     font-size: 1.2rem;
+    text-align: justify;
 }
 
 /* about__img begin */
@@ -149,6 +150,10 @@
 .faq__content__item__question{
     font-weight: 700;
     margin-bottom: .5rem;
+}
+
+.faq__content__item__text{
+    text-align: justify;
 }
 
 /* faq end */
