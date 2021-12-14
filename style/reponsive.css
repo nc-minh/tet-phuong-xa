@@ -201,4 +201,12 @@
 
     /* faq end */
 
+    /* page main */
+
+    .main__body__img{
+        padding: 0;
+    }
+
+    /* page main end */
+
 }
