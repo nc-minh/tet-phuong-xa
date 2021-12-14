@@ -1,0 +1,63 @@
+.main{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.main__header__title{
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.main__header__wrapper{
+    display: flex;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.main__header__wrapper__poster,
+.main__header__wrapper__date{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.main__header__preview{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.main__body__content{
+    font-size: 1rem;
+    margin: .8rem 0;
+    text-align: justify;
+}
+
+.main__body__img{
+    display: block;
+    width: 100%;
+    padding: 0 10rem;
+    margin: 1rem 0;
+}
+
+.main__body__part{
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.main__body__star{
+    text-align: center;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.main__body__end{
+    text-align: right;
+}
