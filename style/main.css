@@ -205,12 +205,12 @@ html{
 .content__item__link{
     display: flex;
     text-decoration: none;
+    justify-content: center;
 }
 
 .content__item__img{
-    min-width: 25rem;
     height: auto;
-    width: 27rem;
+    flex: 1;
 }
 
 .content__item__img img{
@@ -221,6 +221,7 @@ html{
 .content__item__wrapper{
     color: var(--color-text);
     margin-left: 2rem;
+    flex: 2;
 }
 
 .content__item__title{
