@@ -17,6 +17,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
 }
 
 html{
@@ -207,8 +208,9 @@ html{
 }
 
 .content__item__img{
-    width: 100rem;
+    min-width: 25rem;
     height: auto;
+    width: 27rem;
 }
 
 .content__item__img img{
@@ -224,6 +226,7 @@ html{
 .content__item__title{
     font-size: 1.8rem;
     margin-bottom: 2rem;
+    line-height: 2rem
 }
 
 /* content end */
