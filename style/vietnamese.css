@@ -48,6 +48,7 @@
 
 .content__header__item{
     margin: .3rem .5rem;
+    color: rgb(62, 62, 65);
 }
 
 .content__title{
@@ -117,6 +118,15 @@
 .han{
     font-family: han;
     font-size: 2.2rem;
+}
+
+.content__header__logo{
+    display: block;
+    width: 5rem;
+    margin: auto;
+    padding-top: .5rem;
+    text-decoration: none;
+
 }
 
 #comment__fb{
