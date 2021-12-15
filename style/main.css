@@ -270,6 +270,7 @@ html{
 .featured__item__title{
     color: var(--color-text);
     font-size: 1.6rem;
+    line-height: 1.6rem;
     margin: .8rem 0;
 }
 
@@ -279,6 +280,13 @@ html{
 }
 
 /* featured end */
+
+.audio{
+    position: relative;
+    z-index: 10;
+    margin: auto;
+    display: block;
+}
 
 /* comment__fb begin */
 
