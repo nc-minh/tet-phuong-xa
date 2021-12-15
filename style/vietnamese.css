@@ -1,18 +1,37 @@
+@font-face { font-family: sarah; src: url('../fonts/UTM\ Sarah.ttf'); } 
+@font-face { font-family: thuphap; src: url('../fonts/UTM\ ThuPhap\ Thien\ An.ttf'); } 
+@font-face { font-family: han; src: url('../fonts/hancooljazzb.ttf'); } 
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 .app{
-    background-color: #ad1425;
+    position: relative;
+    background-color: #e9e2d3;
+}
+
+.background{
+    background-image: url('../img/—Pngtree—beautiful\ red\ new\ year\ decorative_3720246.png');
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-position: top center;
+    background-repeat: repeat-y;
+
 }
 
 .content{
     max-width: 1000px;
-    height: auto;
+    height: 100%;
     text-align: center;
     margin: auto;
+    position: relative;
 }
 
 .content img{
@@ -20,6 +39,119 @@
     width: 100%;
 }
 
+.content__header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.content__header__item{
+    margin: .3rem .5rem;
+}
+
+.content__title{
+    font-size: 5rem;
+    font-family: thuphap;
+    color: #f3420c;
+    margin: 2rem 0;
+}
+
+.content__number{
+    font-weight: 600;
+    text-align: center;
+    margin: 1rem;
+    font-size: 1.6rem;
+}
+
+.content__desc{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    padding: 0 1rem;
+}
+
+.content__desc__left{
+    max-width: 20rem;
+    text-align: justify;
+    margin-right: .5rem;
+    font-family: sarah;
+    font-size: 2rem;
+}
+
+.content__desc__right{
+    margin-top: 5rem;
+    max-width: 20rem;
+    text-align: justify;
+    margin-left: .5rem;
+    font-family: sarah;
+    font-size: 2rem;
+}
+
+.content__item{
+    margin: .5rem;
+}
+
+.content__sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__sub-english,
+.content__sub-korean{
+    text-decoration: none;
+    padding: .5rem;
+    margin-left: .2rem;
+    color: black;
+    background-color: transparent;
+    border: .1rem solid rgb(228, 9, 9);
+    border-radius: 9999px;
+}
+
+.content__sub-korean:hover,
+.content__sub-english:hover{
+    color: red;
+}
+
+.han{
+    font-family: han;
+    font-size: 2.2rem;
+}
+
 #comment__fb{
     padding: 2rem 5rem;
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    z-index: 10;
+}
+
+@media only screen and (max-width: 1200px){
+    .background{
+        background-image: url('../img/nen2.png');
+    }
+}
+
+@media only screen and (max-width: 769px){
+    .content__header{
+        flex-wrap: wrap;
+    }
+
+    .content__desc{
+        margin-top: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content__desc__left{
+        margin-bottom: 2rem;
+        max-width: 100%;
+    }
+
+    .content__desc__right{
+        margin-top: 0;
+        max-width: 100%;
+    }
+
 }
