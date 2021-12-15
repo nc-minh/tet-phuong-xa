@@ -113,6 +113,9 @@ html{
 .header__contact__item{
     padding: 0 .6rem;
     font-size: 1.2rem;
+    display: block;
+    text-decoration: none;
+    color: var(--color-black);
 }
 
 .header__contact__item__icon:hover{
@@ -428,6 +431,8 @@ html{
 .footer__contact__item{
     margin: 0 1rem;
     font-size: 2rem;
+    text-decoration: none;
+    color: var(--color-black);
 }
 
 .footer__contact__item__icon{
